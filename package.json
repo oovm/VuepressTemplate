@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "reset": "git reset Head~ --soft",
         "start": "vuepress dev docs",
         "update": "yarn upgrade-interactive --latest",
         "test": "yarn install && yarn start",
@@ -7,7 +8,7 @@
         "deploy": "vuepress build docs"
     },
     "dependencies": {
-        "vuepress": "^1.2.0",
+        "vuepress": "^1.4.0",
         "vuepress-plugin-mathjax": "^1.2.8"
     },
     "devDependencies": {}
