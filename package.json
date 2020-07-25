@@ -8,7 +8,7 @@
         "deploy": "vuepress build docs"
     },
     "dependencies": {
-        "vuepress": "^1.4.0",
+        "vuepress": "^1.5.2",
         "vuepress-plugin-mathjax": "^1.2.8"
     },
     "devDependencies": {}
