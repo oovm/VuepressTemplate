@@ -2,13 +2,13 @@
     "scripts": {
         "reset": "git reset Head~ --soft",
         "start": "vuepress dev docs",
-        "update": "yarn upgrade-interactive --latest",
-        "test": "yarn install && yarn start",
+        "update": "npm update --latest",
+        "test": "npm install && npm start",
         "build": "vuepress build docs",
         "deploy": "vuepress build docs"
     },
     "dependencies": {
-        "vuepress": "^1.4.0",
+        "vuepress": "^1.5.2",
         "vuepress-plugin-mathjax": "^1.2.8"
     },
     "devDependencies": {}
