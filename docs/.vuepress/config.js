@@ -75,7 +75,6 @@ module.exports = {
             '/en/': locale_en,
         },
     },
-    serviceWorker: true,
     markdown: {
         config: md => {
         }
@@ -85,5 +84,10 @@ module.exports = {
             target: 'chtml',
             presets: [],
         },
+        '@vuepress/pwa': {
+            // serviceWorker: true,
+            // updatePopup: true,
+            popupComponent: 'PWAUpdate',
+        }
     }
 };
